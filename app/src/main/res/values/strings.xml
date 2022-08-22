@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Mnnit NCP</string>
+    <string-array name="QuickHelp">
+        <item>Setting I.P. Address on Windows</item>
+        <item>Setting I.P. Address on Linux</item>
+        <item>I.P. Address Scheme</item>
+        <item>Email Related Issues</item>
+        <item>MSTeams Related Issues</item>
+    </string-array>
+    <string-array name="Actions">
+        <item>Register a Complaint</item>
+        <item>Check Complaint Status</item>
+        <item>I.T Manager/Technician Login</item>
+        <item>I.T Manager Dashboard</item>
+        <item>Technician Dashboard</item>
+    </string-array>
+</resources>

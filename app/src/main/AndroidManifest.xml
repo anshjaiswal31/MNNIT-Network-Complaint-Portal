@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.mnnitcms">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MnnitCMS"
+        android:usesCleartextTraffic="true">
+        <activity android:name=".PDFActivity"
+            android:screenOrientation="portrait"
+            ></activity>
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="portrait"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".WebActivity"
+            android:screenOrientation="portrait"
+        ></activity>
+        <activity android:name=".CheckActivity"
+            android:screenOrientation="portrait"
+            ></activity>
+        <activity android:name=".quickhelp1"
+            android:screenOrientation="portrait"
+            ></activity>
+        <activity android:name=".quickhelp2"
+            android:screenOrientation="portrait"
+            ></activity>
+        <activity android:name=".quickhelp3"
+            android:screenOrientation="portrait"
+            ></activity>
+        <activity android:name=".quickhelp4"
+            android:screenOrientation="portrait"
+            ></activity>
+        <activity android:name=".quickhelp5"
+            android:screenOrientation="portrait"
+            ></activity>
+        <activity android:name=".Departmentspdf"
+            android:screenOrientation="portrait"
+            ></activity>
+        <activity android:name=".DJ_GIRLSPDF"
+            android:screenOrientation="portrait"
+            ></activity>
+        <activity android:name=".PatelPDF"
+            android:screenOrientation="portrait"
+            ></activity>
+        <activity android:name=".TilakPDF"
+            android:screenOrientation="portrait"
+            ></activity>
+        <activity android:name=".MalviyaPDF"
+            android:screenOrientation="portrait"
+            ></activity>
+        <activity android:name=".TandonPDF"
+            android:screenOrientation="portrait"
+            ></activity>
+        <activity android:name=".RamanPDF"
+            android:screenOrientation="portrait"
+            ></activity>
+        <activity android:name=".Tagorepdf"
+            android:screenOrientation="portrait"
+            ></activity>
+        <activity android:name=".CCPDF"
+            android:screenOrientation="portrait"
+            ></activity>
+        <activity android:name=".smsPDF"
+            android:screenOrientation="portrait"
+            ></activity>
+        <activity android:name=".pgPDF"
+            android:screenOrientation="portrait"
+            ></activity>
+        <activity android:name=".KNGHPDF"
+            android:screenOrientation="portrait"
+            ></activity>
+        <activity android:name=".SNGHPDF"
+            android:screenOrientation="portrait"
+            ></activity>
+        <activity android:name=".newPGPDF"
+            android:screenOrientation="portrait"
+            ></activity>
+        <activity android:name=".cblockpdf"
+            android:screenOrientation="portrait"
+            ></activity>
+        <activity android:name=".colonyPDF"
+            android:screenOrientation="portrait"
+            ></activity>
+        <activity android:name=".wblockpdf"
+            android:screenOrientation="portrait"
+            ></activity>
+        <activity android:name=".bcblockpdf"
+            android:screenOrientation="portrait"
+            ></activity>
+        <activity android:name=".bfihpdf"
+            android:screenOrientation="portrait"
+            ></activity>
+        <activity android:name=".edcpdf"
+            android:screenOrientation="portrait"
+            ></activity>
+        <activity android:name=".dispensarypdf"
+            android:screenOrientation="portrait"
+            ></activity>
+        <activity android:name=".gblockpdf"
+            android:screenOrientation="portrait"
+            ></activity>
+        <activity android:name=".loginActivity"
+            android:screenOrientation="portrait"
+            ></activity>
+        <activity android:name=".dashboardActivity"
+            android:screenOrientation="portrait"
+            ></activity>
+    </application>
+
+</manifest>
